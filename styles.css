@@ -20,8 +20,15 @@ header > h1 {
 	font-family: Asap, sans-serif;
 
 }
-
+.vue {
+	text-align: center;
+}
+.vueAction {
+	display: inline-block;
+	margin: 20px 20px;
+}
 .tableauScore {
+	display: inline-block;
 	border: 3px solid white;
 	width: 200px;
 	color: white;
@@ -91,5 +98,19 @@ header > h1 {
 	font-weight: bold;
 	font-size: 20px;
 	margin-top: 20px;
+}
 
+.contour-vert {
+	border: 4px solid #4DCC7D;
+	box-shadow: 0 0 10px #31B43A;
+}
+
+.contour-rouge {
+	border: 4px solid #FC121B;
+	box-shadow: 0 0 10px #D01115;
+}
+
+.contour-gris {
+	border: 4px solid #464647;
+	box-shadow: 0 0 10px #29252B;
 }
